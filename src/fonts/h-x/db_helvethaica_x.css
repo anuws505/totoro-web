@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'db_helvethaica_x';
+  src: url('db_helvethaica_x-webfont.eot'); /* IE9 Compat Modes */
+  src: url('db_helvethaica_x-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('db_helvethaica_x-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('db_helvethaica_x-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('db_helvethaica_x-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('db_helvethaica_x-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'db_helvethaica_x_li';
+  src: url('db_helvethaica_x_li-webfont.eot');
+  src: url('db_helvethaica_x_li-webfont.eot?#iefix') format('embedded-opentype'),
+       url('db_helvethaica_x_li-webfont.woff2') format('woff2'),
+       url('db_helvethaica_x_li-webfont.woff') format('woff'),
+       url('db_helvethaica_x_li-webfont.ttf') format('truetype'),
+       url('db_helvethaica_x_li-webfont.svg#svgFontName') format('svg');
+}
+@font-face {
+  font-family: 'db_helvethaica_x_bd';
+  src: url('db_helvethaica_x_bd-webfont.eot');
+  src: url('db_helvethaica_x_bd-webfont.eot?#iefix') format('embedded-opentype'),
+       url('db_helvethaica_x_bd-webfont.woff2') format('woff2'),
+       url('db_helvethaica_x_bd-webfont.woff') format('woff'),
+       url('db_helvethaica_x_bd-webfont.ttf') format('truetype'),
+       url('db_helvethaica_x_bd-webfont.svg#svgFontName') format('svg');
+}
