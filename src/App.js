@@ -8,11 +8,7 @@ function App() {
   const totoroJson = {
     customer: 'guest',
     sale: 'pom',
-    createAt: '2023-05-09 12:02:31',
-    modifyAt: [
-      '2023-05-09 12:02:31','2023-05-09 12:03:10',
-      '2023-05-09 12:05:11','2023-05-09 13:11:06'
-    ],
+    dateSold: '2023-05-10T18:44:31+07:00',
     numbers: [
       {
         number: '09',
@@ -61,7 +57,7 @@ function App() {
     tax: {
       percent: 15,
       total: 90,
-      grandTotalBeforTax: 510
+      grandTotalBeforeTax: 510
     }
   };
   const [uname, setUname] = useState('');
