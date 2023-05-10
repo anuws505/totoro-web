@@ -1,0 +1,37 @@
+@import url('../node_modules/reset-css/sass/_reset.scss');
+@import url('../node_modules/normalize.css/normalize.css');
+@import url('./fonts/h-x/db_helvethaica_x.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'db_helvethaica_x', sans-serif;
+  font-size: 18px;
+  color: #121212;
+  background-color: #fbfbfb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  input {
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    background-color: #fff;
+    outline: none;
+  }
+  button {
+    border: 1px solid #bdbdbd;
+    background-color: #efefef;
+    border-radius: 2px;
+
+    &:hover {
+      background-color: #e5e5e5;
+    }
+  }
+}
